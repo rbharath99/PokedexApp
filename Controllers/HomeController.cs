@@ -15,8 +15,13 @@ public class HomeController : Controller
 
     public async Task<IActionResult> Index()
     {
+        var pokemonList = new List<Pokemon>();
+        for (int i = 1; i <= 10; i++)
+        {
+            Pokemon pokemon = await _pokemonService.GetPokemonAsync(i);
+            pokemonList.Add(pokemon);
+        }
 
-        Pokemon pokemon = await _pokemonService.GetPokemonAsync(1);
-        return View(pokemon);
+        return View(pokemonList);
     }
 }

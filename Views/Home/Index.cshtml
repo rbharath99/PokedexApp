@@ -1,6 +1,21 @@
-﻿@model PokedexApp.Models.Pokemon
+﻿@model List<Pokemon>
 
-<h1>@Model.name</h1>
-<p>ID: @Model.id</p>
-<p>Weight: @Model.weight</p>
-<p>Height: @Model.height</p>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="~/css/index.css" />
+</head>
+
+<body>
+    <div class="grid-container">
+        @foreach (var pokemon in Model)
+        {
+            <div class="grid-item">
+                <h2>@pokemon.name</h2>
+                <p>ID: @pokemon.id</p>
+                <p>Weight: @pokemon.weight</p>
+                <p>Height: @pokemon.height</p>
+            </div>
+        }
+    </div>
+</body>
