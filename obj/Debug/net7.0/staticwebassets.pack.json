@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\PokedexApp.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\Ryan Bharath\\PokedexApp\\wwwroot\\css\\index.css",
+      "PackagePath": "staticwebassets\\css\\index.css"
+    },
+    {
       "Id": "C:\\Users\\Ryan Bharath\\PokedexApp\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

@@ -31,4 +31,3 @@ C:\Users\Ryan Bharath\PokedexApp\obj\Debug\net7.0\refint\PokedexApp.dll
 C:\Users\Ryan Bharath\PokedexApp\obj\Debug\net7.0\PokedexApp.pdb
 C:\Users\Ryan Bharath\PokedexApp\obj\Debug\net7.0\PokedexApp.genruntimeconfig.cache
 C:\Users\Ryan Bharath\PokedexApp\obj\Debug\net7.0\ref\PokedexApp.dll
-C:\Users\Ryan Bharath\PokedexApp\obj\Debug\net7.0\scopedcss\Views\Home\index.cshtml.rz.scp.css

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "xe7mBl6M309hKVPcPfc6aSeMT9opgSnFKgsIZi39KSM=",
+  "Hash": "+rtDBP6e7tXfUmfiUbXPZanPN3lhM/kXRGPcXvh/YjQ=",
   "Source": "PokedexApp",
   "BasePath": "_content/PokedexApp",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Ryan Bharath\\PokedexApp\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\PokedexApp.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\Ryan Bharath\\PokedexApp\\wwwroot\\css\\index.css",
+      "SourceId": "PokedexApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Ryan Bharath\\PokedexApp\\wwwroot\\",
+      "BasePath": "_content/PokedexApp",
+      "RelativePath": "css/index.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\index.css"
     },
     {
       "Identity": "C:\\Users\\Ryan Bharath\\PokedexApp\\wwwroot\\css\\site.css",

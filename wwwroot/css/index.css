@@ -11,3 +11,11 @@
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
     text-align: center;
 }
+
+.grid-item {
+  visibility: visible;
+}
+
+.grid-item.hidden {
+  visibility: hidden;
+}
