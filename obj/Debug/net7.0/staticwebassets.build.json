@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "+rtDBP6e7tXfUmfiUbXPZanPN3lhM/kXRGPcXvh/YjQ=",
+  "Hash": "ktO4RMA8WCZDtG+NhuuW/PqunCEsGOii8XhCrcryfUA=",
   "Source": "PokedexApp",
   "BasePath": "_content/PokedexApp",
   "Mode": "Default",
@@ -68,6 +68,23 @@
       "OriginalItemSpec": "wwwroot\\css\\index.css"
     },
     {
+      "Identity": "C:\\Users\\Ryan Bharath\\PokedexApp\\wwwroot\\css\\search-container.css",
+      "SourceId": "PokedexApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Ryan Bharath\\PokedexApp\\wwwroot\\",
+      "BasePath": "_content/PokedexApp",
+      "RelativePath": "css/search-container.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\search-container.css"
+    },
+    {
       "Identity": "C:\\Users\\Ryan Bharath\\PokedexApp\\wwwroot\\css\\site.css",
       "SourceId": "PokedexApp",
       "SourceType": "Discovered",
@@ -100,6 +117,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\Ryan Bharath\\PokedexApp\\wwwroot\\js\\index.js",
+      "SourceId": "PokedexApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Ryan Bharath\\PokedexApp\\wwwroot\\",
+      "BasePath": "_content/PokedexApp",
+      "RelativePath": "js/index.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\index.js"
     },
     {
       "Identity": "C:\\Users\\Ryan Bharath\\PokedexApp\\wwwroot\\js\\site.js",

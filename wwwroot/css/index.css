@@ -16,6 +16,21 @@
   visibility: visible;
 }
 
+.grid-item:hover {
+  background-color: lightgray;
+  text-decoration: none;
+}
+
 .grid-item.hidden {
   visibility: hidden;
+}
+
+.navigation-link {
+  text-decoration: none;
+  color: #333;
+}
+
+.navigation-link:hover {
+  text-decoration: none;
+  color: inherit;
 }

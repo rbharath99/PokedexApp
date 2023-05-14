@@ -24,4 +24,10 @@ public class HomeController : Controller
 
         return View(pokemonList);
     }
+
+    public async Task<IActionResult> Details(int id)
+    {
+        var pokemon = await _pokemonService.GetPokemonAsync(id);
+        return View(pokemon);
+    }
 }

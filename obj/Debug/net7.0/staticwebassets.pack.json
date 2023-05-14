@@ -9,12 +9,20 @@
       "PackagePath": "staticwebassets\\css\\index.css"
     },
     {
+      "Id": "C:\\Users\\Ryan Bharath\\PokedexApp\\wwwroot\\css\\search-container.css",
+      "PackagePath": "staticwebassets\\css\\search-container.css"
+    },
+    {
       "Id": "C:\\Users\\Ryan Bharath\\PokedexApp\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "C:\\Users\\Ryan Bharath\\PokedexApp\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Ryan Bharath\\PokedexApp\\wwwroot\\js\\index.js",
+      "PackagePath": "staticwebassets\\js\\index.js"
     },
     {
       "Id": "C:\\Users\\Ryan Bharath\\PokedexApp\\wwwroot\\js\\site.js",

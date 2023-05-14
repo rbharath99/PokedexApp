@@ -16,10 +16,13 @@
         @foreach (var pokemon in Model)
         {
             <div class="grid-item">
-                <h2>@pokemon.name</h2>
-                <p>ID: @pokemon.id</p>
-                <p>Weight: @pokemon.weight</p>
-                <p>Height: @pokemon.height</p>
+                <a class="navigation-link" href="@Url.Action("Details", new { id = pokemon.id })">
+                    <h2>@pokemon.name</h2>
+                    <p>ID: @pokemon.id</p>
+                    <p>Weight: @pokemon.weight</p>
+                    <p>Height: @pokemon.height</p>
+                </a>
+
             </div>
         }
     </div>
