@@ -1,6 +1,13 @@
 @model Pokemon
 
-<h1>@Model.name</h1>
+<h1>@Model.Name</h1>
 
-<p>Height: @Model.height</p>
-<p>Weight: @Model.weight</p>
+<p>Height: @Model.Height</p>
+<p>Weight: @Model.Weight</p>
+<p>Base Experience: @Model.BaseExperience</p>
+<div class="type-row">
+    @foreach (var type in Model.Types)
+    {
+        <span>@type.pokemonType2.Name</span>
+    }
+</div>
