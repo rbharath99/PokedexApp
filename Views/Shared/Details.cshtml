@@ -1,4 +1,5 @@
 @model Pokemon
+@using PokedexApp.Util
 
 <h1>@Model.Name</h1>
 
@@ -8,6 +9,7 @@
 <div class="type-row">
     @foreach (var type in Model.Types)
     {
-        <span>@type.pokemonType2.Name</span>
+        <span class="badge"
+            style="background-color: @PokeColor.GetTypeColor(@type.pokemonType2.Name);">@type.pokemonType2.Name</span>
     }
 </div>
