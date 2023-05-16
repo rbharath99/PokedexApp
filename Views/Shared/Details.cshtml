@@ -1,15 +1,28 @@
 @model Pokemon
 @using PokedexApp.Util
 
-<h1>@Model.Name</h1>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="~/css/details.css" />
+</head>
 
-<p>Height: @Model.Height</p>
-<p>Weight: @Model.Weight</p>
-<p>Base Experience: @Model.BaseExperience</p>
-<div class="type-row">
-    @foreach (var type in Model.Types)
-    {
-        <span class="badge"
-            style="background-color: @PokeColor.GetTypeColor(@type.pokemonType2.Name);">@type.pokemonType2.Name</span>
-    }
-</div>
+<body>
+    <div class="details-container"
+        style="background-color: @PokeColor.GetTypeColor(@Model.Types[0].pokemonType2.Name);">
+        <div class="details-section">
+            <h1>@Model.Name</h1>
+            <img src="@Model.Sprite.FrontDefault" alt="@Model.Sprite.FrontShiny">
+            <p>Height: @Model.Height</p>
+            <p>Weight: @Model.Weight</p>
+            <p>Base Experience: @Model.BaseExperience</p>
+            <div class="type-row">
+                @foreach (var type in Model.Types)
+                {
+                    <span class="badge"
+                        style="background-color: @PokeColor.GetTypeColor(@type.pokemonType2.Name);">@type.pokemonType2.Name</span>
+                }
+            </div>
+        </div>
+    </div>
+</body>

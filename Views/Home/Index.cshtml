@@ -16,14 +16,17 @@
     <div class="grid-container">
         @foreach (var pokemon in Model)
         {
-            <div class="grid-item" style="background-color: @PokeColor.GetTypeColor(@pokemon.Types[0].pokemonType2.Name);">
-                <a class="navigation-link" href="@Url.Action("Details", new { id = pokemon.Id })">
-                    <h2>@pokemon.Name</h2>
-                    <p>ID: @pokemon.Id</p>
-                    <p>Weight: @pokemon.Weight</p>
-                    <p>Height: @pokemon.Height</p>
-                </a>
 
+            <div class="grid-item" style="background-color: @PokeColor.GetTypeColor(@pokemon.Types[0].pokemonType2.Name);">
+                <div class="grid-section">
+                    <a class="navigation-link" href="@Url.Action("Details", new { id = pokemon.Id })">
+                        <h2>@pokemon.Name</h2>
+                        <img src="@pokemon.Sprite.FrontDefault" alt="@pokemon.Sprite.FrontShiny">
+                        <p>ID: @pokemon.Id</p>
+                        <p>Weight: @pokemon.Weight</p>
+                        <p>Height: @pokemon.Height</p>
+                    </a>
+                </div>
             </div>
         }
     </div>

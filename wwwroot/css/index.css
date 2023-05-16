@@ -16,6 +16,12 @@
   visibility: visible;
 }
 
+.grid-section {
+  background-color: white;
+  border-radius: 10px;
+  margin: 5px;
+}
+
 .grid-item:hover {
   background-color: lightgray;
   text-decoration: none;

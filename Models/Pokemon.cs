@@ -21,6 +21,9 @@ public class Pokemon
 
     [JsonProperty("types")]
     public List<PokemonType> Types { get; set; } = new List<PokemonType>();
+
+    [JsonProperty("sprites")]
+    public Sprites Sprite { get; set; } = new Sprites();
 }
 
 public class PokemonType
@@ -39,4 +42,19 @@ public class PokemonType2
 
     [JsonProperty("url")]
     public string Url { get; set; } = "";
+}
+
+public class Sprites
+{
+    [JsonProperty("back_default")]
+    public string BackDefault { get; set; } = "";
+
+    [JsonProperty("back_shiny")]
+    public string BackShiny { get; set; } = "";
+
+    [JsonProperty("front_default")]
+    public string FrontDefault { get; set; } = "";
+
+    [JsonProperty("front_shiny")]
+    public string FrontShiny { get; set; } = "";
 }

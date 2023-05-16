@@ -1,0 +1,13 @@
+.details-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.details-section {
+    background-color: white;
+    border-radius: 10px;
+    margin: 15px;
+}
