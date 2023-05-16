@@ -20,7 +20,6 @@ public class PokemonService : IPokemonService
         {
             string jsonContent = await response.Content.ReadAsStringAsync();
             Pokemon pokemon = JsonConvert.DeserializeObject<Pokemon>(jsonContent);
-            Console.WriteLine(pokemon.BaseExperience);
             return pokemon;
         }
         else
